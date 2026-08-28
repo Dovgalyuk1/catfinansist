@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title>CATFINANSIST | $CATFIN</title>
+<meta name="description" content="Meet CATFINANSIST — the feline financier who owns the block, sips The Feline Cask, and never checks the charts sober. $CATFIN.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="CATFINANSIST | $CATFIN">
+<meta property="og:description" content="The feline financier who owns the block. $CATFIN.">
+<meta property="og:image" content="assets/hero-banner.jpg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" type="image/jpeg" href="assets/pfp.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,900;1,700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="billLayer" class="bill-layer" aria-hidden="true"></div>
+
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#top" class="brand">
+      <img src="assets/pfp.jpg" alt="CATFINANSIST seal" class="brand-seal">
+      <span class="brand-text">
+        <span class="brand-name">CATFINANSIST</span>
+        <span class="brand-ticker">$CATFIN</span>
+      </span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#dossier">Dossier</a>
+      <a href="#cask">The Cask</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#howto">Get In</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="ca-pill" id="caPillNav" title="Click to copy contract address">
+        <span class="ca-label">CA</span>
+        <span class="ca-value" id="caValueNav">NOT MINTED YET</span>
+        <span class="ca-copy-icon">⧉</span>
+      </button>
+      <a class="btn btn-gold btn-sm" id="buyBtnNav" href="#" target="_blank" rel="noopener">Buy</a>
+    </div>
+
+    <button class="burger" id="burgerBtn" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="nav-mobile" id="navMobile">
+    <a href="#dossier">Dossier</a>
+    <a href="#cask">The Cask</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#howto">Get In</a>
+    <button class="ca-pill ca-pill-mobile" id="caPillMobile" title="Click to copy contract address">
+      <span class="ca-label">CA</span>
+      <span class="ca-value" id="caValueMobile">NOT MINTED YET</span>
+      <span class="ca-copy-icon">⧉</span>
+    </button>
+    <a class="btn btn-gold" id="buyBtnMobile" href="#" target="_blank" rel="noopener">Buy $CATFIN</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-frame">
+      <img src="assets/hero-banner.jpg" alt="CATFINANSIST — the feline financier in his penthouse office, counting cash, cigar in paw, a bottle of The Feline Cask whiskey beside him, city skyline through the window." class="hero-img">
+      <div class="hero-frame-fade"></div>
+    </div>
+
+    <div class="hero-content">
+      <p class="eyebrow">■ THE FUND IS NOW OPEN ■</p>
+      <h1 class="hero-title">CAT<span class="hero-title-accent">FINANSIST</span></h1>
+      <p class="hero-tagline">The feline financier who owns the block, sips <em>The Feline Cask</em>, and never checks the charts sober.</p>
+
+      <button class="ca-pill ca-pill-hero" id="caPillHero" title="Click to copy contract address">
+        <span class="ca-label">CONTRACT</span>
+        <span class="ca-value" id="caValueHero">NOT MINTED YET — CHECK BACK SOON</span>
+        <span class="ca-copy-icon">⧉</span>
+      </button>
+
+      <div class="hero-actions">
+        <a class="btn btn-gold" id="buyBtnHero" href="#" target="_blank" rel="noopener">💰 Buy $CATFIN</a>
+        <a class="btn btn-outline" id="chartBtnHero" href="#" target="_blank" rel="noopener">📈 Chart</a>
+        <a class="btn btn-outline" id="xBtnHero" href="#" target="_blank" rel="noopener">🐦 Follow on X</a>
+      </div>
+
+      <a href="#dossier" class="scroll-cue" aria-label="Scroll down">
+        <span>OPEN THE FILE</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 4v16m0 0l-6-6m6 6l6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>$CATFIN</span><span>•</span><span>THE FELINE FINANCIER</span><span>•</span><span>OWNS THE BLOCK</span><span>•</span><span>THE FELINE CASK, NEAT</span><span>•</span><span>BUY THE DIP, NAP THROUGH THE PUMP</span><span>•</span>
+      <span>$CATFIN</span><span>•</span><span>THE FELINE FINANCIER</span><span>•</span><span>OWNS THE BLOCK</span><span>•</span><span>THE FELINE CASK, NEAT</span><span>•</span><span>BUY THE DIP, NAP THROUGH THE PUMP</span><span>•</span>
+    </div>
+  </div>
+
+  <!-- DOSSIER / ABOUT -->
+  <section class="dossier" id="dossier">
+    <div class="section-inner dossier-grid">
+      <div class="dossier-seal-col">
+        <div class="seal-frame">
+          <img src="assets/pfp.jpg" alt="Official seal of CATFINANSIST" class="seal-img">
+          <span class="seal-ring">OFFICIAL SEAL • FELINE CAPITAL HOLDINGS • EST. TODAY</span>
+        </div>
+        <div class="stat-strip">
+          <div class="stat-box">
+            <span class="stat-num" id="statNaps">0</span>
+            <span class="stat-label">Naps Taken Today</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-num" id="statPours">0</span>
+            <span class="stat-label">Glasses of Feline Cask</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-num" id="statDips">0</span>
+            <span class="stat-label">Dips Bought</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="dossier-text-col">
+        <p class="kicker">DOSSIER — CLASSIFIED — CHIEF FELINE OFFICER</p>
+        <h2 class="section-title">Born in the alley behind the exchange.</h2>
+        <p>Nobody remembers hiring him. He was just there one morning, asleep on the trading floor in a bow tie nobody bought him, and by lunch he had a corner office. Now he runs Feline Capital Holdings from the top floor — city lights behind him, a stack of cash he refuses to count in public, and a cigar he's been "just about to put out" for the better part of a decade.</p>
+        <p>His investment thesis is simple: buy what smells right, hold what purrs, and never, ever sell before nap time.</p>
+        <blockquote>"Diversification is just having more than one nap spot." — CATFINANSIST, probably</blockquote>
+
+        <div class="fact-grid">
+          <div class="fact"><span class="fact-k">Title</span><span class="fact-v">Chief Feline Officer</span></div>
+          <div class="fact"><span class="fact-k">HQ</span><span class="fact-v">Penthouse, Corner Office</span></div>
+          <div class="fact"><span class="fact-k">Drink</span><span class="fact-v">The Feline Cask, neat</span></div>
+          <div class="fact"><span class="fact-k">Strategy</span><span class="fact-v">Buy low, nap high</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE FELINE CASK -->
+  <section class="cask" id="cask">
+    <div class="section-inner cask-grid">
+      <div class="cask-copy">
+        <p class="kicker">HOUSE RESERVE</p>
+        <h2 class="section-title">The Feline Cask.</h2>
+        <p>Every closing bell gets the same toast: one finger of <strong>The Feline Cask</strong>, aged in a shoebox under the desk since nobody can remember when. It doesn't leave the office, it isn't for sale, and he will absolutely not explain what's actually in it.</p>
+        <p>Pairs well with: a good cigar, a green candle, and pretending the red candles didn't happen.</p>
+      </div>
+      <div class="cask-label" aria-hidden="true">
+        <div class="cask-label-inner">
+          <span class="cask-label-top">EST. TODAY</span>
+          <span class="cask-label-title">THE<br>FELINE<br>CASK</span>
+          <span class="cask-label-sub">SINGLE MALT • OFFICE RESERVE</span>
+          <span class="cask-label-bottom">NOT FOR SALE — NEVER LEAVES THE DESK</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO / TOKENOMICS -->
+  <section class="portfolio" id="portfolio">
+    <div class="section-inner">
+      <p class="kicker center">THE PORTFOLIO</p>
+      <h2 class="section-title center">$CATFIN, on paper.</h2>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-card">
+          <span class="portfolio-card-label">Total Supply</span>
+          <span class="portfolio-card-value">TBA</span>
+        </div>
+        <div class="portfolio-card">
+          <span class="portfolio-card-label">Tax</span>
+          <span class="portfolio-card-value">0 / 0</span>
+        </div>
+        <div class="portfolio-card">
+          <span class="portfolio-card-label">Liquidity</span>
+          <span class="portfolio-card-value">TBA</span>
+        </div>
+        <div class="portfolio-card">
+          <span class="portfolio-card-label">Network</span>
+          <span class="portfolio-card-value">TBA</span>
+        </div>
+      </div>
+
+      <div class="live-stats" id="liveStats">
+        <div class="live-stat">
+          <span class="live-stat-label">Price</span>
+          <span class="live-stat-value" id="livePrice">—</span>
+        </div>
+        <div class="live-stat">
+          <span class="live-stat-label">Market Cap</span>
+          <span class="live-stat-value" id="liveMcap">—</span>
+        </div>
+        <div class="live-stat">
+          <span class="live-stat-label">24h Volume</span>
+          <span class="live-stat-value" id="liveVol">—</span>
+        </div>
+        <div class="live-stat">
+          <span class="live-stat-label">24h Change</span>
+          <span class="live-stat-value" id="liveChange">—</span>
+        </div>
+      </div>
+      <p class="live-stats-note" id="liveStatsNote">Live stats will populate automatically once $CATFIN is trading.</p>
+    </div>
+  </section>
+
+  <!-- HOW TO GET IN -->
+  <section class="howto" id="howto">
+    <div class="section-inner">
+      <p class="kicker center">GET IN</p>
+      <h2 class="section-title center">Join the fund.</h2>
+
+      <div class="howto-grid">
+        <div class="howto-step">
+          <span class="howto-num">01</span>
+          <h3>Get a wallet</h3>
+          <p>Set up a wallet you control. Nobody at Feline Capital will ever ask for your seed phrase — least of all him, he can't type.</p>
+        </div>
+        <div class="howto-step">
+          <span class="howto-num">02</span>
+          <h3>Fund it</h3>
+          <p>Send some SOL/ETH to your wallet from an exchange of your choice — enough for the swap and a little for fees.</p>
+        </div>
+        <div class="howto-step">
+          <span class="howto-num">03</span>
+          <h3>Swap for $CATFIN</h3>
+          <p>Head to the chart, paste the contract address, and swap. Always verify the CA before you buy — copy it straight from this site.</p>
+        </div>
+        <div class="howto-step">
+          <span class="howto-num">04</span>
+          <h3>Hold like he does</h3>
+          <p>Sit back, pour something neat, and hold the way the boss holds — like the charts are somebody else's problem.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="section-inner footer-inner">
+    <div class="footer-brand">
+      <img src="assets/pfp.jpg" alt="CATFINANSIST seal" class="footer-seal">
+      <div>
+        <span class="brand-name">CATFINANSIST</span>
+        <span class="brand-ticker">$CATFIN</span>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <a href="#" id="xBtnFooter" target="_blank" rel="noopener">X / Twitter</a>
+      <a href="#" id="telegramBtnFooter" target="_blank" rel="noopener">Telegram</a>
+      <a href="#" id="chartBtnFooter" target="_blank" rel="noopener">Chart</a>
+    </div>
+
+    <button class="ca-pill ca-pill-footer" id="caPillFooter" title="Click to copy contract address">
+      <span class="ca-label">CA</span>
+      <span class="ca-value" id="caValueFooter">NOT MINTED YET</span>
+      <span class="ca-copy-icon">⧉</span>
+    </button>
+  </div>
+  <p class="footer-fine">CATFIN is a meme token made for fun. DYOR. © <span id="year"></span> Feline Capital Holdings.</p>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
